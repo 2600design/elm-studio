@@ -1,0 +1,43 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#21301B"/>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <g filter="url(#blur1)" opacity="0.75">
+    <ellipse cx="819" cy="357" rx="282" ry="146" fill="#F2E9D8"/>
+  </g>
+  <g filter="url(#blur2)" opacity="0.42">
+    <ellipse cx="816" cy="563" rx="484" ry="254" fill="#C4C9B5"/>
+  </g>
+  <g opacity="0.75">
+    <path d="M0 115C92 52 174 25 246 36C176 93 122 149 84 204C46 259 18 331 0 420V115Z" fill="#172212"/>
+    <path d="M1600 96C1516 38 1435 20 1357 33C1429 84 1484 136 1521 190C1559 244 1585 316 1600 409V96Z" fill="#172212"/>
+    <path d="M0 1120C92 1083 168 1021 229 934C196 1021 170 1110 151 1200H0V1120Z" fill="#182413"/>
+    <path d="M1600 1114C1521 1081 1444 1024 1368 943C1410 1024 1439 1110 1454 1200H1600V1114Z" fill="#182413"/>
+  </g>
+  <g opacity="0.6">
+    <ellipse cx="580" cy="920" rx="310" ry="170" fill="#314227"/>
+    <ellipse cx="1008" cy="905" rx="344" ry="190" fill="#27371F"/>
+  </g>
+  <g opacity="0.16">
+    <rect width="1600" height="1200" fill="url(#grain)"/>
+  </g>
+  <defs>
+    <filter id="blur1" x="417" y="91" width="804" height="532" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <filter id="blur2" x="152" y="129" width="1328" height="868" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="90"/>
+    </filter>
+    <linearGradient id="bg" x1="800" y1="0" x2="800" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#44533B"/>
+      <stop offset="0.46" stop-color="#2F4027"/>
+      <stop offset="1" stop-color="#1A2515"/>
+    </linearGradient>
+    <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="16" r="1" fill="#FFFDF7"/>
+      <circle cx="34" cy="48" r="1" fill="#FFFDF7"/>
+      <circle cx="62" cy="29" r="1" fill="#FFFDF7"/>
+      <circle cx="74" cy="63" r="1" fill="#FFFDF7"/>
+      <circle cx="26" cy="72" r="1" fill="#FFFDF7"/>
+    </pattern>
+  </defs>
+</svg>
