@@ -1,0 +1,37 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1600" fill="#F3EBDD"/>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <g filter="url(#blur1)" opacity="0.85">
+    <ellipse cx="640" cy="598" rx="298" ry="212" fill="#FDF7EF"/>
+  </g>
+  <g opacity="0.82">
+    <path d="M292 824C401 743 533 700 664 700C788 700 897 740 991 824" stroke="#6C735F" stroke-width="18" stroke-linecap="round"/>
+    <path d="M352 842C449 782 551 754 658 754C761 754 848 779 938 842" stroke="#2D3D24" stroke-width="10" stroke-linecap="round"/>
+    <path d="M406 824L366 762" stroke="#2D3D24" stroke-width="7" stroke-linecap="round"/>
+    <path d="M468 794L443 722" stroke="#2D3D24" stroke-width="7" stroke-linecap="round"/>
+    <path d="M534 776L526 700" stroke="#2D3D24" stroke-width="7" stroke-linecap="round"/>
+    <path d="M602 766L610 689" stroke="#2D3D24" stroke-width="7" stroke-linecap="round"/>
+    <path d="M674 767L695 693" stroke="#2D3D24" stroke-width="7" stroke-linecap="round"/>
+    <path d="M744 781L780 718" stroke="#2D3D24" stroke-width="7" stroke-linecap="round"/>
+    <path d="M814 803L863 749" stroke="#2D3D24" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.18">
+    <rect width="1200" height="1600" fill="url(#grain)"/>
+  </g>
+  <defs>
+    <filter id="blur1" x="182" y="226" width="916" height="744" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F0E5"/>
+      <stop offset="1" stop-color="#E7DCC9"/>
+    </linearGradient>
+    <pattern id="grain" width="72" height="72" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="11" r="1" fill="#877762"/>
+      <circle cx="38" cy="27" r="1" fill="#877762"/>
+      <circle cx="55" cy="16" r="1" fill="#877762"/>
+      <circle cx="49" cy="53" r="1" fill="#877762"/>
+      <circle cx="17" cy="58" r="1" fill="#877762"/>
+    </pattern>
+  </defs>
+</svg>

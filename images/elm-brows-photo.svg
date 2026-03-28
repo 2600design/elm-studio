@@ -1,0 +1,34 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1600" fill="#D7DECA"/>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <g filter="url(#blur1)" opacity="0.8">
+    <ellipse cx="605" cy="420" rx="300" ry="180" fill="#F9F4EB"/>
+  </g>
+  <g opacity="0.62">
+    <path d="M180 698C316 593 429 541 556 537C627 535 692 554 752 585" stroke="#31402A" stroke-width="28" stroke-linecap="round"/>
+    <path d="M1020 698C884 593 771 541 644 537C573 535 508 554 448 585" stroke="#31402A" stroke-width="28" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.24">
+    <path d="M194 724C325 624 436 587 553 585" stroke="#7B836F" stroke-width="10" stroke-linecap="round"/>
+    <path d="M1006 724C875 624 764 587 647 585" stroke="#7B836F" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.18">
+    <rect width="1200" height="1600" fill="url(#grain)"/>
+  </g>
+  <defs>
+    <filter id="blur1" x="185" y="120" width="840" height="600" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DEE4D0"/>
+      <stop offset="1" stop-color="#B8C1A8"/>
+    </linearGradient>
+    <pattern id="grain" width="74" height="74" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="11" r="1" fill="#FCF9F1"/>
+      <circle cx="38" cy="29" r="1" fill="#FCF9F1"/>
+      <circle cx="57" cy="16" r="1" fill="#FCF9F1"/>
+      <circle cx="50" cy="54" r="1" fill="#FCF9F1"/>
+      <circle cx="18" cy="58" r="1" fill="#FCF9F1"/>
+    </pattern>
+  </defs>
+</svg>

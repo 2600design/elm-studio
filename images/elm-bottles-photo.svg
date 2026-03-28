@@ -1,0 +1,35 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1600" fill="#EEE4D5"/>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <g filter="url(#blur1)" opacity="0.7">
+    <ellipse cx="808" cy="322" rx="224" ry="176" fill="#FFF8EF"/>
+  </g>
+  <g opacity="0.98">
+    <rect x="286" y="1017" width="624" height="28" rx="14" fill="#D8C9B3"/>
+    <rect x="402" y="566" width="126" height="410" rx="48" fill="#C8D0B8"/>
+    <rect x="438" y="492" width="54" height="100" rx="18" fill="#B0B99F"/>
+    <rect x="598" y="658" width="180" height="318" rx="56" fill="#FBF5EC"/>
+    <rect x="646" y="598" width="84" height="86" rx="24" fill="#E9DFD1"/>
+    <rect x="810" y="778" width="84" height="198" rx="34" fill="#8C947A"/>
+    <rect x="829" y="734" width="46" height="58" rx="16" fill="#788167"/>
+  </g>
+  <g opacity="0.16">
+    <rect width="1200" height="1600" fill="url(#grain)"/>
+  </g>
+  <defs>
+    <filter id="blur1" x="464" y="26" width="688" height="592" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F0E6"/>
+      <stop offset="1" stop-color="#E7DCCC"/>
+    </linearGradient>
+    <pattern id="grain" width="74" height="74" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="11" r="1" fill="#8A7A66"/>
+      <circle cx="38" cy="29" r="1" fill="#8A7A66"/>
+      <circle cx="57" cy="16" r="1" fill="#8A7A66"/>
+      <circle cx="50" cy="54" r="1" fill="#8A7A66"/>
+      <circle cx="18" cy="58" r="1" fill="#8A7A66"/>
+    </pattern>
+  </defs>
+</svg>
